@@ -63,16 +63,21 @@ In computer science, test coverage is a measure used to describe the degree to w
 * Once, we execute 'Rscript codecov_number_utility.R', the following output(s) are generated.
 
 * Coverage Result<BR>
+    * The output below is generated from the Terminal window. They key take away from the image below is that our tests ran, and that our code coverage currently is 71.43%.
 
 [coverage_result]: images/coverage_result.png "Coverage Result"
 ![alt text][coverage_result]
 
 * Coverage Report - Summary page<BR>
+    * This is an HTML report which we have generated and the summary page provides information which is similar to what was provided above.
 
 [coverage_report_1]: images/coverage_report_1.png "Coverage Report - Summary Page"
 ![alt text][coverage_report_1]
 
 * Coverage Report - Details Page - number_utility.R<BR>
+    * The line(s) in green indicate coverage, and the number of time(s) they were executed as part of running the unit test(s).
+    * The line(s) in red indicate the line(s) which lack coverage.
+
 
 [coverage_report_2]: images/coverage_report_2.png "Coverage Report - Details Page - number_utility.R"
 ![alt text][coverage_report_2]
